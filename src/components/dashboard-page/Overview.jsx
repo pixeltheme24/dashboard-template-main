@@ -1,7 +1,7 @@
 const Overview = () => {
     return (
         <div>
-            overview Page
+            <h2 className="text-red-500">Overview</h2>
         </div>
     );
 };
