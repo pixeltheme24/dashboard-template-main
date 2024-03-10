@@ -1,5 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
 import Menu from "./Menu";
+import Navber from "../dashboard-page/Navber";
 
 const Dashboard = () => {
     return (
@@ -14,7 +15,9 @@ const Dashboard = () => {
                     </ul>
                 </div>
             </div>
-            <div className="w-4/5">
+            <div className="w-4/5 pl-10">
+                <Navber></Navber>
+                <div className="pb-5"></div>
                 <Outlet></Outlet>
             </div>
         </div>
