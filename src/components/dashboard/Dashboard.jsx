@@ -15,10 +15,14 @@ const Dashboard = () => {
                     </ul>
                 </div>
             </div>
-            <div className="w-4/5 pl-10">
-                <Navber></Navber>
+            <div className="w-4/5 bg-gray-50">
+                <div className="bg-white pl-10 pb-3">
+                    <Navber></Navber>
+                </div>
                 <div className="pb-5"></div>
-                <Outlet></Outlet>
+                <div className="pl-10">
+                    <Outlet></Outlet>
+                </div>
             </div>
         </div>
     );
